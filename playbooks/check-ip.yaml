@@ -3,5 +3,6 @@
   hosts: all
   tasks:
     - name: task 1
-      register: unameout
-        command: "uname -a"
+      copy:
+        content: 'This is my file 1'
+        dest: /tmp/mine.conf
