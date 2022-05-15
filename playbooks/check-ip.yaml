@@ -5,6 +5,3 @@
     - name: task 1
       register: unameout
         command: "uname -a"
-
-      - debug:
-          var: unameout.stdout_lines
