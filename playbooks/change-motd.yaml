@@ -1,0 +1,8 @@
+---
+- name: change motd content
+  hosts: all
+  tasks:
+    - name: task 1
+      copy:
+        content: 'This is a secure environment.'
+        dest: /etc/motd
