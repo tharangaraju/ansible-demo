@@ -1,0 +1,1 @@
+I'm using this sample template to test ansible automation platform. this codes will no harm the enviornment. 
